@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    height: 100%;
+    background-image: url(background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#wrap {
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 5px;
+    height: 100%;
+    padding: 10px 5px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(2px);
+    line-height: 1.5;
+    width: 95%;
+    box-shadow: 5px 3px 30px black;
+    border: 2px solid transparent;
+}
