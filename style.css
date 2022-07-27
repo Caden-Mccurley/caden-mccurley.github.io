@@ -10,6 +10,7 @@ html {
     color: #fff;
     font-family: Inter;
 }
+
 body {
 	margin: 0 auto;
 	max-width: 750px;
@@ -26,13 +27,16 @@ body {
 	font-size: 1.03rem;
 	line-height: 1.5;
 }
+
 img {
     max-width: 100%;
     margin-right: 10px;
 }
+
 header {
     border-bottom: 2px solid rgba(255, 255, 255, 0.068);
 }
+
 h1 {
     display: flex;
     align-items:center;
@@ -41,14 +45,29 @@ h1 {
 h2 {
     border-bottom: 2px solid rgba(255, 255, 255, 0.068);
 }
+
 a {
     color: rgb(0, 68, 255);
 }
+
 a:hover {
     color: rgb(0, 110, 255);
 }
+
 #logo {
     width: 50px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 100%;
+}
+
+.contact-img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50px;
+    filter: invert(1);
+} 
+
+#images{
+    text-align:center;
 }
