@@ -58,11 +58,11 @@ p {
     transform: translate(-50%, -50%);
     width: 90%;
   }
-  #gamingcoachimg {
+  #codingtutorimg {
     border-bottom-left-radius: 30px; 
   }
   
-  #codingtutorimg {
+  #gamingcoachimg {
     border-bottom-right-radius: 30px;
   }
   #flyers {
